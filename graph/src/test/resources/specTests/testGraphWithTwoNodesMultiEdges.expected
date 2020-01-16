@@ -1,0 +1,22 @@
+created graph graphWithTwoNodesMultiEdges
+
+added node A to graphWithTwoNodesMultiEdges
+added node B to graphWithTwoNodesMultiEdges
+added node C to graphWithTwoNodesMultiEdges
+
+added edge eCA2 from C to A in graphWithTwoNodesMultiEdges
+added edge eCA1 from C to A in graphWithTwoNodesMultiEdges
+
+added edge eAA2 from A to A in graphWithTwoNodesMultiEdges
+added edge eAB1 from A to B in graphWithTwoNodesMultiEdges
+added edge eAB2 from A to B in graphWithTwoNodesMultiEdges
+
+added edge eBA1 from B to A in graphWithTwoNodesMultiEdges
+added edge eBA2 from B to A in graphWithTwoNodesMultiEdges
+added edge eBB1 from B to B in graphWithTwoNodesMultiEdges
+added edge eBB2 from B to B in graphWithTwoNodesMultiEdges
+
+graphWithTwoNodesMultiEdges contains: A B C
+the children of A in graphWithTwoNodesMultiEdges are: A(eAA2) B(eAB1) B(eAB2)
+the children of B in graphWithTwoNodesMultiEdges are: A(eBA1) A(eBA2) B(eBB1) B(eBB2)
+the children of C in graphWithTwoNodesMultiEdges are: A(eCA1) A(eCA2)

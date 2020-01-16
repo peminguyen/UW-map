@@ -1,0 +1,8 @@
+CreateGraph graphWithTwoNodes
+
+AddNode graphWithTwoNodes A
+AddNode graphWithTwoNodes B
+
+ListNodes graphWithTwoNodes
+ListChildren graphWithTwoNodes A
+ListChildren graphWithTwoNodes B

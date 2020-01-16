@@ -1,0 +1,50 @@
+body {
+    padding: 0;
+    margin:0;
+    background-color: #fdffc2;
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center center;
+    background-image: none;
+}
+
+/* Create some space around text boxes so the label text isn't scrunched up next to it. */
+input {
+    margin: 5px;
+}
+
+/* The "0" means no margin above or below the canvas. The "auto" means set the left- and
+right-side margins so that the canvas is centered. */
+canvas {
+    margin: 0 auto;
+}
+
+#app-title {
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 10px;
+}
+
+#building-names  {
+    text-align: center;
+    margin: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+
+#directionsHolder {
+    background: #a9ff16;
+    box-shadow: 10px 10px grey;
+    font-size: 12px;
+    position: fixed;
+    left: 20px;
+    top: 20px;
+    width: 200px;
+    height: 500px;
+    opacity: 0.8;
+    overflow: scroll;
+    font-family: Arial, Helvetica, sans-serif;
+}
+

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="pathfinder.implTest.textInterface.TestDirection" tests="6" skipped="0" failures="0" errors="0" timestamp="2019-11-15T06:59:37" hostname="Pemis-Mac.local" time="0.04">
+  <properties/>
+  <testcase name="testResolveDirectionDownRight" classname="pathfinder.implTest.textInterface.TestDirection" time="0.003"/>
+  <testcase name="testResolveDirectionBasic" classname="pathfinder.implTest.textInterface.TestDirection" time="0.0"/>
+  <testcase name="testResolveDirectionBasicOrigin" classname="pathfinder.implTest.textInterface.TestDirection" time="0.0"/>
+  <testcase name="testResolveDirectionNan" classname="pathfinder.implTest.textInterface.TestDirection" time="0.034"/>
+  <testcase name="testResolveDirectionDownLeft" classname="pathfinder.implTest.textInterface.TestDirection" time="0.001"/>
+  <testcase name="testResolveDirectionUpLeft" classname="pathfinder.implTest.textInterface.TestDirection" time="0.0"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

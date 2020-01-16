@@ -1,0 +1,11 @@
+CreateGraph graph
+
+AddNode graph C
+AddNode graph A
+AddNode graph B
+
+AddEdge graph A B 1.3246
+AddEdge graph A C 1.042112
+AddEdge graph B C 0.282888
+
+FindPath graph A B

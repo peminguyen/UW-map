@@ -1,0 +1,19 @@
+created graph graphWithOneNodeToFourNodes
+
+added node A to graphWithOneNodeToFourNodes
+added node B to graphWithOneNodeToFourNodes
+added node C to graphWithOneNodeToFourNodes
+added node D to graphWithOneNodeToFourNodes
+added node E to graphWithOneNodeToFourNodes
+
+added edge eAB from A to B in graphWithOneNodeToFourNodes
+added edge eAC from A to C in graphWithOneNodeToFourNodes
+added edge eAD from A to D in graphWithOneNodeToFourNodes
+added edge eAE from A to E in graphWithOneNodeToFourNodes
+
+graphWithOneNodeToFourNodes contains: A B C D E
+the children of A in graphWithOneNodeToFourNodes are: B(eAB) C(eAC) D(eAD) E(eAE)
+the children of B in graphWithOneNodeToFourNodes are:
+the children of C in graphWithOneNodeToFourNodes are:
+the children of D in graphWithOneNodeToFourNodes are:
+the children of E in graphWithOneNodeToFourNodes are:

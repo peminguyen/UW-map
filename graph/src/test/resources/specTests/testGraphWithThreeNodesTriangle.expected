@@ -1,0 +1,14 @@
+created graph graphWithThreeNodesTriangle
+
+added node A to graphWithThreeNodesTriangle
+added node B to graphWithThreeNodesTriangle
+added node C to graphWithThreeNodesTriangle
+
+added edge eAB from A to B in graphWithThreeNodesTriangle
+added edge eBC from B to C in graphWithThreeNodesTriangle
+added edge eCA from C to A in graphWithThreeNodesTriangle
+
+graphWithThreeNodesTriangle contains: A B C
+the children of A in graphWithThreeNodesTriangle are: B(eAB)
+the children of B in graphWithThreeNodesTriangle are: C(eBC)
+the children of C in graphWithThreeNodesTriangle are: A(eCA)

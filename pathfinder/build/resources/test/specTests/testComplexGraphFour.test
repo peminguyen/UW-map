@@ -1,0 +1,23 @@
+CreateGraph graph
+
+AddNode graph A
+AddNode graph B
+AddNode graph C
+AddNode graph D
+AddNode graph E
+AddNode graph F
+
+AddEdge graph A B 7
+AddEdge graph A C 9
+AddEdge graph A F 14
+AddEdge graph B C 10
+AddEdge graph B D 15
+AddEdge graph C D 11
+AddEdge graph C F 2
+AddEdge graph F E 9
+AddEdge graph D E 6
+
+FindPath graph A F
+
+FindPath graph A E
+

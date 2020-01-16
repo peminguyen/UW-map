@@ -1,0 +1,91 @@
+CSE 331 Homework.  Answers to written questions.
+Edit this file to supply your answers.
+
+Name:  Pemi Nguyen
+
+Part 1. (Written exercises)
+
+(a)
+
+IntQueue1:
+
+* RI:
+entries != NULL && size >= 0 && for (element in list): list != NULL
+
+* AF = A list of Integer type such that
+Case 1: if the queue is empty, entries will have no elements
+Case 2: if the queue is non-empty, entries = [a_0, a_1, a_2, ..., a_n-1]
+with n being the size of the queue. When an item is added, it will be added to the end and
+when dequeuing, the item at index 0 is removed. No item will be removed once the queue is empty.
+
+IntQueue2:
+*RI:
+entries != NULL && 20 > front >= 0 and entries.size() >= size >= 0
+*AF = A list of int type such that:
+Case 1: if the queue is empty, entries will have no elements,
+Case 2: if the queue is non-empty, front will be the index of the element where items will
+be removed at, and new items will be added on the other side.
+
+
+(b)
+a: front = 1, size = 2
+b = front = 2, size = 3
+c = front = 1, size = 3
+d = front = 1, size = 2
+e = front = 1, size = 4
+f = front = 1, size = 3
+g = front = 1, size = 2
+h = front = 2, size = 3
+
+Equivalence at abstract level
+- a, d, g
+- c, f
+- b, h
+
+(c)
+
+1. This method may not expose representation, because the parameter and return types are of type
+int, which is primitive (not mutable).
+2. This method may expose representation, because the return type is an array, which is mutable and
+can be modified to be different from the original one.
+3. This method may expose representation because the type Date is mutable and the clients can use the reference
+to the Date object to modify the contents store in it.
+4. This method may not expose representation, because the return type String is not mutable
+5. This method may expose representation, because in case the Iterator is not a part of unmodifiableList, the
+return type Iterator can invoke the remove() method , which allows clients to remove elements from
+the original collection.
+6. This method may expose representation in case the constructor does not make a copy of the parameter "card",
+Type List is mutable, so if no copy is made, the parameter can be modified later with no original copy.
+
+
+Part 2.  (Graph interface/operations)
+
+I have a Vertex class that stores the name of a vertex. Vertex will have specific representation
+invariant, such as the name can not be empty, so I think it's necessary to have a lower-level
+Vertex class to build the framework for our graph.
+
+I have an Edge class that stores the label of the edge and the name of the destination vertex.
+The reason why I don't include the starting vertex is because I plan to use a HashMap for my
+graph that map every vertex to another vertex, so having the starting vertex within the Edge
+class will be a duplication. Also, each edge label is unique for a single Graph object, so having
+the Edge class will be useful for higher-level implementation in the Graph class.
+
+For the Graph class, I have many methods to add new vertices and edges to the graphs, which
+are central to building new graphs. I also include removeVertex and removeEdge methods to remove
+some specific vertices and edges. This will allow the clients to remove certain features of the
+current graph. I don't put a removeAll method for this class because it will allow the clients
+to destroy the whole graph. contains() is needed because it allows us to check if a vertex or
+an edge already exists, so we don't have duplications. Some informational methods such as
+isEmpty(), areConnected() are useful for clients to know more information about the graph.
+I override toString() in order for the clients to visualize all information in the graph.
+
+Part 3.  (Testing strategy)
+
+I used white box testing strategy to test across many different methods. I have a rough idea
+of what the underlying data structure is, which is a HashMap, and what rep invariant should
+be for the graph, so I created many cases to cover edge cases. Also, for specifications,
+I will throw a large number of exception, because I assume the clients will not be careful enough
+to read the specs. There are a variety of graphs that I test, such as empty graphs, simple graph,
+graphs with self-reflexive vertices,
+
+

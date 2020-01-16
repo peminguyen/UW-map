@@ -1,0 +1,10 @@
+created graph graph
+
+added node A to graph
+added node B to graph
+
+added edge 3.000 from A to B in graph
+
+path from A to B:
+A to B with weight 3.000
+total cost: 3.000

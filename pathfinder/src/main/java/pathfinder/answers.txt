@@ -1,0 +1,16 @@
+CSE 331 Homework.  Answers to written questions.
+Edit this file to supply your answers.
+
+Name: Pemi Nguyen
+
+Initially, I did sorting for listEdge(), listChildren() or toString() on the String type
+of vertex name or edge label name. However, this means that I will have to enforce Comparable
+on the generic types of private fields in Graph, which won't make sense if we extend to
+some types with no natural ordering Point. Therefore, I only do sorting such as TreeSet
+on the actual implementation of Graph in MarvelPaths or in the drivers.
+
+
+
+
+
+

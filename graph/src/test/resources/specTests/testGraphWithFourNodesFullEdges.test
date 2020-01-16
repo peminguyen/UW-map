@@ -1,0 +1,28 @@
+CreateGraph graphWithFourNodesFullEdges
+
+AddNode graphWithFourNodesFullEdges A
+AddNode graphWithFourNodesFullEdges B
+AddNode graphWithFourNodesFullEdges C
+AddNode graphWithFourNodesFullEdges D
+
+AddEdge graphWithFourNodesFullEdges A B eAB
+AddEdge graphWithFourNodesFullEdges A C eAC
+AddEdge graphWithFourNodesFullEdges A D eAD
+
+AddEdge graphWithFourNodesFullEdges B A eBA
+AddEdge graphWithFourNodesFullEdges B C eBC
+AddEdge graphWithFourNodesFullEdges B D eBD
+
+AddEdge graphWithFourNodesFullEdges C A eCA
+AddEdge graphWithFourNodesFullEdges C B eCB
+AddEdge graphWithFourNodesFullEdges C D eCD
+
+AddEdge graphWithFourNodesFullEdges D A eDA
+AddEdge graphWithFourNodesFullEdges D B eDB
+AddEdge graphWithFourNodesFullEdges D C eDC
+
+ListNodes graphWithFourNodesFullEdges
+ListChildren graphWithFourNodesFullEdges A
+ListChildren graphWithFourNodesFullEdges B
+ListChildren graphWithFourNodesFullEdges C
+ListChildren graphWithFourNodesFullEdges D

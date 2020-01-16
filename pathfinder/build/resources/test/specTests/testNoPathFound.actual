@@ -1,0 +1,18 @@
+created graph graph
+
+added node A to graph
+added node B to graph
+added node C to graph
+
+added edge 1.000 from A to B in graph
+added edge 2.000 from B to C in graph
+
+graph contains: A B C
+
+the children of A in graph are: B(1.000)
+the children of B in graph are: C(2.000)
+the children of C in graph are:
+
+path from C to A:
+no path found
+

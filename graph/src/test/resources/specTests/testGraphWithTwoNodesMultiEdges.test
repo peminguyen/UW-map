@@ -1,0 +1,22 @@
+CreateGraph graphWithTwoNodesMultiEdges
+
+AddNode graphWithTwoNodesMultiEdges A
+AddNode graphWithTwoNodesMultiEdges B
+AddNode graphWithTwoNodesMultiEdges C
+
+AddEdge graphWithTwoNodesMultiEdges C A eCA2
+AddEdge graphWithTwoNodesMultiEdges C A eCA1
+
+AddEdge graphWithTwoNodesMultiEdges A A eAA2
+AddEdge graphWithTwoNodesMultiEdges A B eAB1
+AddEdge graphWithTwoNodesMultiEdges A B eAB2
+
+AddEdge graphWithTwoNodesMultiEdges B A eBA1
+AddEdge graphWithTwoNodesMultiEdges B A eBA2
+AddEdge graphWithTwoNodesMultiEdges B B eBB1
+AddEdge graphWithTwoNodesMultiEdges B B eBB2
+
+ListNodes graphWithTwoNodesMultiEdges
+ListChildren graphWithTwoNodesMultiEdges A
+ListChildren graphWithTwoNodesMultiEdges B
+ListChildren graphWithTwoNodesMultiEdges C

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="pathfinder.specTest.ScriptFileTests" tests="11" skipped="0" failures="0" errors="0" timestamp="2019-11-15T06:59:37" hostname="Pemis-Mac.local" time="0.322">
+  <properties/>
+  <testcase name="checkOutput[exampleDijkstraTest]" classname="pathfinder.specTest.ScriptFileTests" time="0.155"/>
+  <testcase name="checkOutput[testTriangleGraph]" classname="pathfinder.specTest.ScriptFileTests" time="0.045"/>
+  <testcase name="checkOutput[testSimpleGraph]" classname="pathfinder.specTest.ScriptFileTests" time="0.009"/>
+  <testcase name="checkOutput[testComplexGraphFour]" classname="pathfinder.specTest.ScriptFileTests" time="0.011"/>
+  <testcase name="checkOutput[testComplexGraphTwo]" classname="pathfinder.specTest.ScriptFileTests" time="0.016"/>
+  <testcase name="checkOutput[testUnknownNode]" classname="pathfinder.specTest.ScriptFileTests" time="0.015"/>
+  <testcase name="checkOutput[testSelfPath]" classname="pathfinder.specTest.ScriptFileTests" time="0.007"/>
+  <testcase name="checkOutput[testComplexGraphThree]" classname="pathfinder.specTest.ScriptFileTests" time="0.01"/>
+  <testcase name="checkOutput[testNoPathFound]" classname="pathfinder.specTest.ScriptFileTests" time="0.004"/>
+  <testcase name="checkOutput[testComplexGraphOne]" classname="pathfinder.specTest.ScriptFileTests" time="0.025"/>
+  <testcase name="checkOutput[testMultipleDecimalPointEdgeCost]" classname="pathfinder.specTest.ScriptFileTests" time="0.005"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

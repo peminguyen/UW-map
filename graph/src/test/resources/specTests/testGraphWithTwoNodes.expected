@@ -1,0 +1,8 @@
+created graph graphWithTwoNodes
+
+added node A to graphWithTwoNodes
+added node B to graphWithTwoNodes
+
+graphWithTwoNodes contains: A B
+the children of A in graphWithTwoNodes are:
+the children of B in graphWithTwoNodes are:

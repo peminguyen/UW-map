@@ -1,0 +1,19 @@
+CreateGraph graphWithOneNodeToFourNodes
+
+AddNode graphWithOneNodeToFourNodes A
+AddNode graphWithOneNodeToFourNodes B
+AddNode graphWithOneNodeToFourNodes C
+AddNode graphWithOneNodeToFourNodes D
+AddNode graphWithOneNodeToFourNodes E
+
+AddEdge graphWithOneNodeToFourNodes A B eAB
+AddEdge graphWithOneNodeToFourNodes A C eAC
+AddEdge graphWithOneNodeToFourNodes A D eAD
+AddEdge graphWithOneNodeToFourNodes A E eAE
+
+ListNodes graphWithOneNodeToFourNodes
+ListChildren graphWithOneNodeToFourNodes A
+ListChildren graphWithOneNodeToFourNodes B
+ListChildren graphWithOneNodeToFourNodes C
+ListChildren graphWithOneNodeToFourNodes D
+ListChildren graphWithOneNodeToFourNodes E

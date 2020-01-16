@@ -1,0 +1,14 @@
+CreateGraph graphWithThreeNodesTriangle
+
+AddNode graphWithThreeNodesTriangle A
+AddNode graphWithThreeNodesTriangle B
+AddNode graphWithThreeNodesTriangle C
+
+AddEdge graphWithThreeNodesTriangle A B eAB
+AddEdge graphWithThreeNodesTriangle B C eBC
+AddEdge graphWithThreeNodesTriangle C A eCA
+
+ListNodes graphWithThreeNodesTriangle
+ListChildren graphWithThreeNodesTriangle A
+ListChildren graphWithThreeNodesTriangle B
+ListChildren graphWithThreeNodesTriangle C

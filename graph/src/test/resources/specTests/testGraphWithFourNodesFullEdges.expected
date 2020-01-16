@@ -1,0 +1,28 @@
+created graph graphWithFourNodesFullEdges
+
+added node A to graphWithFourNodesFullEdges
+added node B to graphWithFourNodesFullEdges
+added node C to graphWithFourNodesFullEdges
+added node D to graphWithFourNodesFullEdges
+
+added edge eAB from A to B in graphWithFourNodesFullEdges
+added edge eAC from A to C in graphWithFourNodesFullEdges
+added edge eAD from A to D in graphWithFourNodesFullEdges
+
+added edge eBA from B to A in graphWithFourNodesFullEdges
+added edge eBC from B to C in graphWithFourNodesFullEdges
+added edge eBD from B to D in graphWithFourNodesFullEdges
+
+added edge eCA from C to A in graphWithFourNodesFullEdges
+added edge eCB from C to B in graphWithFourNodesFullEdges
+added edge eCD from C to D in graphWithFourNodesFullEdges
+
+added edge eDA from D to A in graphWithFourNodesFullEdges
+added edge eDB from D to B in graphWithFourNodesFullEdges
+added edge eDC from D to C in graphWithFourNodesFullEdges
+
+graphWithFourNodesFullEdges contains: A B C D
+the children of A in graphWithFourNodesFullEdges are: B(eAB) C(eAC) D(eAD)
+the children of B in graphWithFourNodesFullEdges are: A(eBA) C(eBC) D(eBD)
+the children of C in graphWithFourNodesFullEdges are: A(eCA) B(eCB) D(eCD)
+the children of D in graphWithFourNodesFullEdges are: A(eDA) B(eDB) C(eDC)

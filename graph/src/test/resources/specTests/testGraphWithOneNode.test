@@ -1,0 +1,7 @@
+CreateGraph graphWithOneNode
+
+AddNode graphWithOneNode A
+
+ListNodes graphWithOneNode
+
+ListChildren graphWithOneNode A

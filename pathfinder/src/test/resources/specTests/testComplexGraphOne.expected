@@ -1,0 +1,33 @@
+created graph graph
+
+added node A to graph
+added node B to graph
+added node C to graph
+added node D to graph
+added node E to graph
+added node F to graph
+
+added edge 7.000 from A to B in graph
+added edge 7.000 from B to A in graph
+added edge 9.000 from A to C in graph
+added edge 9.000 from C to A in graph
+added edge 14.000 from A to F in graph
+added edge 14.000 from F to A in graph
+added edge 10.000 from B to C in graph
+added edge 10.000 from C to B in graph
+added edge 15.000 from B to D in graph
+added edge 15.000 from D to B in graph
+added edge 2.000 from C to F in graph
+added edge 2.000 from F to C in graph
+added edge 11.000 from C to D in graph
+added edge 11.000 from D to C in graph
+added edge 9.000 from F to E in graph
+added edge 9.000 from E to F in graph
+added edge 6.000 from D to E in graph
+added edge 6.000 from E to D in graph
+
+path from A to E:
+A to C with weight 9.000
+C to F with weight 2.000
+F to E with weight 9.000
+total cost: 20.000

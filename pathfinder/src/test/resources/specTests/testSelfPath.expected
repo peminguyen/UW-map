@@ -1,0 +1,12 @@
+created graph graph
+
+added node A to graph
+added node B to graph
+
+path from A to A:
+A to A with weight 0.000
+total cost: 0.000
+
+path from B to B:
+B to B with weight 0.000
+total cost: 0.000

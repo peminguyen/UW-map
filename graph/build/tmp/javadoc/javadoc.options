@@ -1,0 +1,14 @@
+--no-module-directories 
+-classpath '/Users/peminguyen/IdeaProjects/cse331-19au-peming/hw-graph/build/classes/java/main:/Users/peminguyen/IdeaProjects/cse331-19au-peming/hw-graph/build/resources/main'
+-d '/Users/peminguyen/IdeaProjects/cse331-19au-peming/hw-graph/build/docs/javadoc'
+-doctitle 'hw-graph API'
+-quiet 
+-tag 'spec.modifies:a:Modifies:'
+-tag 'spec.effects:a:Effects:'
+-tag 'spec.requires:a:Requires:'
+-tag 'spec.specfield:a:Specfield:'
+-tag 'spec.derivedfield:a:Derived Field:'
+-windowtitle 'hw-graph API'
+'/Users/peminguyen/IdeaProjects/cse331-19au-peming/hw-graph/src/main/java/graph/Graph.java'
+'/Users/peminguyen/IdeaProjects/cse331-19au-peming/hw-graph/src/main/java/graph/problem1/IntQueue2.java'
+'/Users/peminguyen/IdeaProjects/cse331-19au-peming/hw-graph/src/main/java/graph/problem1/IntQueue1.java'

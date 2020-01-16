@@ -1,0 +1,13 @@
+CreateGraph graphWithTwoNodesComplex
+
+AddNode graphWithTwoNodesComplex A
+AddNode graphWithTwoNodesComplex B
+
+AddEdge graphWithTwoNodesComplex A A eAA
+AddEdge graphWithTwoNodesComplex A B eAB
+AddEdge graphWithTwoNodesComplex B A eBA
+AddEdge graphWithTwoNodesComplex B B eBB
+
+ListNodes graphWithTwoNodesComplex
+ListChildren graphWithTwoNodesComplex A
+ListChildren graphWithTwoNodesComplex B

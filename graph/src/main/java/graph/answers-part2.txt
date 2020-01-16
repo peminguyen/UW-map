@@ -1,0 +1,42 @@
+Part 1
+a) Collection of edges:
+The advantage of this representation is that adding new edge to the collection will yield
+O(1) complexity . However, if we have a large number of vertices and edges among them,
+it will be harder to get useful information about the relationship between different vertices
+in the graph. For example, if we don't implement Comparable/Comparator for this
+representation, we might need to loop through all Edge objects in the
+graph in order to know how many edges there are between two specific vertices.
+
+b) An adjacency list, in which each node is associated with a list of its outgoing edges:
+The advantage of this representation is that adding new vertex or new edge to the edge
+will be O(1) complexity when we use Map. Removing a vertex will also be O(1). However,
+it will be time-consuming to remove edges when the graph does not implement Comparable/Comparator,
+and while it will be faster to gather information between two specific vertices than
+the representation in a, it will still take sometime to loop.
+
+c) An adjacency matrix, which explicitly represents, for every pair ⟨A,B⟩ of edges,
+whether there is a link from A to B, and how many:
+The advantage of this representation is that adding or removing vertices and edges will
+yield O(1) complexity if we use Map to represent the link from A to B and Set to list
+all the edges from A to B. Another advantage is that it will also take O(1) to get information
+about the relationship between two vertices in the graph, such as whether two vertices
+are connected, how many edges between two vertices, whether there exists a certain vertex
+or edge. However, it will be take O(n^2) complexity to initialize the value for
+the adjacency matrix.
+
+2. For my graph representation, I chose the representation 3, in which I use a HashMap
+to map a parent vertex to another HashMap which maps the child vertex to a set of edges
+from the parent to the child. This representation is generally very efficient, with
+O(1) complexity when accessing a parent vertices, when accessing the edges from a parent
+to a child, or when removing a vertex, which is helpful in gathering information for
+the relationship between two specific vertices. However, it will take O(n^2) to initialize
+empty sets when a graph is created and also O(n^2) to initialize empty sets
+when adding a new vertex.
+
+Part 4:
+I made lots of changes to my specifications, because I changed my representation of graph
+from using an adjacency list to using an adjacency matrix. Therefore, I got rid of my
+Edge class, and for some methods like removeEdge or addEdge, I changed the parameters,
+from setting 2 parameters (1 vertex and 1 edge) to 3 parameters (1 parent vertex, 1 child
+vertex, 1 edge label). Also, I removed spec.requires for some methods and put
+throws in order to indicate that I will throw exceptions.

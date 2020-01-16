@@ -1,0 +1,9 @@
+CreateGraph graph
+
+AddNode graph A
+AddNode graph B
+
+FindPath graph A C
+
+FindPath graph D E
+

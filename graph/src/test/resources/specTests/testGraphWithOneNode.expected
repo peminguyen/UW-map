@@ -1,0 +1,7 @@
+created graph graphWithOneNode
+
+added node A to graphWithOneNode
+
+graphWithOneNode contains: A
+
+the children of A in graphWithOneNode are:

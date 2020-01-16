@@ -1,0 +1,3 @@
+CreateGraph emptyGraph
+
+ListNodes emptyGraph

@@ -1,0 +1,13 @@
+created graph graphWithTwoNodesComplex
+
+added node A to graphWithTwoNodesComplex
+added node B to graphWithTwoNodesComplex
+
+added edge eAA from A to A in graphWithTwoNodesComplex
+added edge eAB from A to B in graphWithTwoNodesComplex
+added edge eBA from B to A in graphWithTwoNodesComplex
+added edge eBB from B to B in graphWithTwoNodesComplex
+
+graphWithTwoNodesComplex contains: A B
+the children of A in graphWithTwoNodesComplex are: A(eAA) B(eAB)
+the children of B in graphWithTwoNodesComplex are: A(eBA) B(eBB)
